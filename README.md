@@ -25,7 +25,7 @@ legal cases, and incident tracking.
 
 ## Files
 
-- `Untitled.sql` — full schema definition with all table creation and constraints
+- `schema.sql` — full schema definition with all table creation and constraints
 - `projec.sql` — sample data inserts and DML (UPDATE, DELETE) queries
 - `projectPart4sql.sql` — analytical queries (see below)
 
@@ -41,7 +41,7 @@ legal cases, and incident tracking.
 
 ## Setup
 ```bash
-mysql -u root -p < Untitled.sql
+mysql -u root -p < schema.sql
 mysql -u root -p < projec.sql
 ```
 
